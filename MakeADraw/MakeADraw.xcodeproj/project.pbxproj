@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		108D95B3C38E629CD57AC0C2 /* Pods_MakeADraw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36C0C10B0272E80EAB37E64 /* Pods_MakeADraw.framework */; };
+		CC15AC0D20A26E150041A69E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC15AC0C20A26E150041A69E /* GoogleService-Info.plist */; };
+		CC15AC0F20A2879F0041A69E /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC15AC0E20A2879F0041A69E /* LogViewController.swift */; };
+		CC35E9FB207D384500EE377F /* TorneoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC35E9FA207D384500EE377F /* TorneoDetailViewController.swift */; };
+		CC35E9FE207D70D900EE377F /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC35E9FD207D70D900EE377F /* Usuario.swift */; };
+		CC3BBA4B207A8876008751CE /* Profile.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC3BBA4A207A8876008751CE /* Profile.xib */; };
+		CC517C9C206AC53200AB1B9A /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC517C9B206AC53200AB1B9A /* Profile.swift */; };
+		CC517CA1206ACE4900AB1B9A /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC517C9F206ACE4900AB1B9A /* SelectViewController.swift */; };
+		CC517CA4206B065F00AB1B9A /* FullDrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC517CA3206B065F00AB1B9A /* FullDrawViewController.swift */; };
+		CC56CAC2207B10D3000B1E8C /* TorneoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC56CAC0207B10D3000B1E8C /* TorneoTableViewCell.swift */; };
+		CC56CAC3207B10D3000B1E8C /* TorneoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC56CAC1207B10D3000B1E8C /* TorneoTableViewCell.xib */; };
+		CC56CAC6207D233A000B1E8C /* DetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC56CAC5207D233A000B1E8C /* DetailsView.xib */; };
+		CC56CAC8207D2348000B1E8C /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC56CAC7207D2348000B1E8C /* DetailsView.swift */; };
+		CC56CACD207D25E2000B1E8C /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC56CACB207D25E2000B1E8C /* DetailsTableViewCell.swift */; };
+		CC56CACE207D25E2000B1E8C /* DetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC56CACC207D25E2000B1E8C /* DetailsTableViewCell.xib */; };
+		CC7CA019207A9F4F00325E43 /* TorneoTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC7CA018207A9F4F00325E43 /* TorneoTable.xib */; };
+		CC7CA01B207A9FA000325E43 /* TorneoTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7CA01A207A9FA000325E43 /* TorneoTable.swift */; };
+		CC7CA01D207A9FAD00325E43 /* TorneoTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7CA01C207A9FAD00325E43 /* TorneoTableDelegate.swift */; };
+		CC8C4BC920AE4C2E00775792 /* Torneo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8C4BC820AE4C2D00775792 /* Torneo.swift */; };
+		CC96B0522044B24D00A71A5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96B0512044B24D00A71A5A /* AppDelegate.swift */; };
+		CC96B0542044B24D00A71A5A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96B0532044B24D00A71A5A /* FirstViewController.swift */; };
+		CC96B0592044B24D00A71A5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC96B0572044B24D00A71A5A /* Main.storyboard */; };
+		CC96B05B2044B24D00A71A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC96B05A2044B24D00A71A5A /* Assets.xcassets */; };
+		CC96B05E2044B24D00A71A5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC96B05C2044B24D00A71A5A /* LaunchScreen.storyboard */; };
+		CC96B0662045113300A71A5A /* HistorialTorneosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96B0652045113200A71A5A /* HistorialTorneosViewController.swift */; };
+		CC96B068204519FF00A71A5A /* TorneoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96B067204519FF00A71A5A /* TorneoViewController.swift */; };
+		CCF79DBB207A8CD9006329BC /* ProfileDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF79DBA207A8CD9006329BC /* ProfileDelegate.swift */; };
+		CCF7FAF120ACAA7B00954B6F /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF7FAF020ACAA7B00954B6F /* SignViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46AB297386FA708D0ADC3F6F /* Pods-MakeADraw.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeADraw.release.xcconfig"; path = "Pods/Target Support Files/Pods-MakeADraw/Pods-MakeADraw.release.xcconfig"; sourceTree = "<group>"; };
+		9E9AF16CEEA765904D401FA7 /* Pods-MakeADraw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeADraw.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MakeADraw/Pods-MakeADraw.debug.xcconfig"; sourceTree = "<group>"; };
+		A36C0C10B0272E80EAB37E64 /* Pods_MakeADraw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakeADraw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC15AC0C20A26E150041A69E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CC15AC0E20A2879F0041A69E /* LogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
+		CC35E9FA207D384500EE377F /* TorneoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorneoDetailViewController.swift; sourceTree = "<group>"; };
+		CC35E9FD207D70D900EE377F /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		CC3BBA4A207A8876008751CE /* Profile.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Profile.xib; sourceTree = "<group>"; };
+		CC517C9B206AC53200AB1B9A /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		CC517C9F206ACE4900AB1B9A /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		CC517CA3206B065F00AB1B9A /* FullDrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullDrawViewController.swift; sourceTree = "<group>"; };
+		CC56CAC0207B10D3000B1E8C /* TorneoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorneoTableViewCell.swift; sourceTree = "<group>"; };
+		CC56CAC1207B10D3000B1E8C /* TorneoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TorneoTableViewCell.xib; sourceTree = "<group>"; };
+		CC56CAC5207D233A000B1E8C /* DetailsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsView.xib; sourceTree = "<group>"; };
+		CC56CAC7207D2348000B1E8C /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		CC56CACB207D25E2000B1E8C /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
+		CC56CACC207D25E2000B1E8C /* DetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsTableViewCell.xib; sourceTree = "<group>"; };
+		CC7CA018207A9F4F00325E43 /* TorneoTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TorneoTable.xib; sourceTree = "<group>"; };
+		CC7CA01A207A9FA000325E43 /* TorneoTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorneoTable.swift; sourceTree = "<group>"; };
+		CC7CA01C207A9FAD00325E43 /* TorneoTableDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorneoTableDelegate.swift; sourceTree = "<group>"; };
+		CC8C4BC820AE4C2D00775792 /* Torneo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Torneo.swift; sourceTree = "<group>"; };
+		CC96B04E2044B24D00A71A5A /* MakeADraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeADraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC96B0512044B24D00A71A5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC96B0532044B24D00A71A5A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		CC96B0582044B24D00A71A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC96B05A2044B24D00A71A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC96B05D2044B24D00A71A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC96B05F2044B24D00A71A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC96B0652045113200A71A5A /* HistorialTorneosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistorialTorneosViewController.swift; sourceTree = "<group>"; };
+		CC96B067204519FF00A71A5A /* TorneoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorneoViewController.swift; sourceTree = "<group>"; };
+		CCF79DBA207A8CD9006329BC /* ProfileDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDelegate.swift; sourceTree = "<group>"; };
+		CCF7FAF020ACAA7B00954B6F /* SignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC96B04B2044B24D00A71A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108D95B3C38E629CD57AC0C2 /* Pods_MakeADraw.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33A599EC15D00BFD4C587A58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A36C0C10B0272E80EAB37E64 /* Pods_MakeADraw.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BFDD00A5E7BFA682DF37ECD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E9AF16CEEA765904D401FA7 /* Pods-MakeADraw.debug.xcconfig */,
+				46AB297386FA708D0ADC3F6F /* Pods-MakeADraw.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC35E9FC207D6B8200EE377F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CC35E9FD207D70D900EE377F /* Usuario.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CC56CAC4207D2191000B1E8C /* DetailsAlex */ = {
+			isa = PBXGroup;
+			children = (
+				CC56CAC5207D233A000B1E8C /* DetailsView.xib */,
+				CC56CAC7207D2348000B1E8C /* DetailsView.swift */,
+				CC56CACB207D25E2000B1E8C /* DetailsTableViewCell.swift */,
+				CC56CACC207D25E2000B1E8C /* DetailsTableViewCell.xib */,
+			);
+			name = DetailsAlex;
+			sourceTree = "<group>";
+		};
+		CC96B0452044B24D00A71A5A = {
+			isa = PBXGroup;
+			children = (
+				CC96B0502044B24D00A71A5A /* MakeADraw */,
+				CC96B04F2044B24D00A71A5A /* Products */,
+				3BFDD00A5E7BFA682DF37ECD /* Pods */,
+				33A599EC15D00BFD4C587A58 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC96B04F2044B24D00A71A5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC96B04E2044B24D00A71A5A /* MakeADraw.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC96B0502044B24D00A71A5A /* MakeADraw */ = {
+			isa = PBXGroup;
+			children = (
+				CC35E9FC207D6B8200EE377F /* Models */,
+				CC96B05C2044B24D00A71A5A /* LaunchScreen.storyboard */,
+				CC96B0512044B24D00A71A5A /* AppDelegate.swift */,
+				CC96B0572044B24D00A71A5A /* Main.storyboard */,
+				CC15AC0E20A2879F0041A69E /* LogViewController.swift */,
+				CCF7FAF020ACAA7B00954B6F /* SignViewController.swift */,
+				CCF7311A207A9D1700B9631B /* TorneasTable */,
+				CCF27150207A873A00EC0630 /* ProfileDavid */,
+				CC517C9F206ACE4900AB1B9A /* SelectViewController.swift */,
+				CC56CAC4207D2191000B1E8C /* DetailsAlex */,
+				CC96B0532044B24D00A71A5A /* FirstViewController.swift */,
+				CC8C4BC820AE4C2D00775792 /* Torneo.swift */,
+				CC96B0652045113200A71A5A /* HistorialTorneosViewController.swift */,
+				CC35E9FA207D384500EE377F /* TorneoDetailViewController.swift */,
+				CC96B067204519FF00A71A5A /* TorneoViewController.swift */,
+				CC517CA3206B065F00AB1B9A /* FullDrawViewController.swift */,
+				CC96B05A2044B24D00A71A5A /* Assets.xcassets */,
+				CC15AC0C20A26E150041A69E /* GoogleService-Info.plist */,
+				CC96B05F2044B24D00A71A5A /* Info.plist */,
+			);
+			path = MakeADraw;
+			sourceTree = "<group>";
+		};
+		CCF27150207A873A00EC0630 /* ProfileDavid */ = {
+			isa = PBXGroup;
+			children = (
+				CC3BBA4A207A8876008751CE /* Profile.xib */,
+				CC517C9B206AC53200AB1B9A /* Profile.swift */,
+				CCF79DBA207A8CD9006329BC /* ProfileDelegate.swift */,
+			);
+			name = ProfileDavid;
+			sourceTree = "<group>";
+		};
+		CCF7311A207A9D1700B9631B /* TorneasTable */ = {
+			isa = PBXGroup;
+			children = (
+				CC7CA018207A9F4F00325E43 /* TorneoTable.xib */,
+				CC7CA01A207A9FA000325E43 /* TorneoTable.swift */,
+				CC7CA01C207A9FAD00325E43 /* TorneoTableDelegate.swift */,
+				CC56CAC1207B10D3000B1E8C /* TorneoTableViewCell.xib */,
+				CC56CAC0207B10D3000B1E8C /* TorneoTableViewCell.swift */,
+			);
+			name = TorneasTable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC96B04D2044B24D00A71A5A /* MakeADraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC96B0622044B24D00A71A5A /* Build configuration list for PBXNativeTarget "MakeADraw" */;
+			buildPhases = (
+				EF48B7A8E938044D98A82B9E /* [CP] Check Pods Manifest.lock */,
+				CC96B04A2044B24D00A71A5A /* Sources */,
+				CC96B04B2044B24D00A71A5A /* Frameworks */,
+				CC96B04C2044B24D00A71A5A /* Resources */,
+				0291BC6930363CA6196672DB /* [CP] Embed Pods Frameworks */,
+				B89614432282D8B84691CA7D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakeADraw;
+			productName = MakeADraw;
+			productReference = CC96B04E2044B24D00A71A5A /* MakeADraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC96B0462044B24D00A71A5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Guillermo Romo Jiménez";
+				TargetAttributes = {
+					CC96B04D2044B24D00A71A5A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CC96B0492044B24D00A71A5A /* Build configuration list for PBXProject "MakeADraw" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC96B0452044B24D00A71A5A;
+			productRefGroup = CC96B04F2044B24D00A71A5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC96B04D2044B24D00A71A5A /* MakeADraw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC96B04C2044B24D00A71A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC56CAC3207B10D3000B1E8C /* TorneoTableViewCell.xib in Resources */,
+				CC96B05E2044B24D00A71A5A /* LaunchScreen.storyboard in Resources */,
+				CC15AC0D20A26E150041A69E /* GoogleService-Info.plist in Resources */,
+				CC56CACE207D25E2000B1E8C /* DetailsTableViewCell.xib in Resources */,
+				CC56CAC6207D233A000B1E8C /* DetailsView.xib in Resources */,
+				CC3BBA4B207A8876008751CE /* Profile.xib in Resources */,
+				CC96B05B2044B24D00A71A5A /* Assets.xcassets in Resources */,
+				CC96B0592044B24D00A71A5A /* Main.storyboard in Resources */,
+				CC7CA019207A9F4F00325E43 /* TorneoTable.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0291BC6930363CA6196672DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MakeADraw/Pods-MakeADraw-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MakeADraw/Pods-MakeADraw-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B89614432282D8B84691CA7D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MakeADraw/Pods-MakeADraw-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MakeADraw/Pods-MakeADraw-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF48B7A8E938044D98A82B9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MakeADraw-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC96B04A2044B24D00A71A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF79DBB207A8CD9006329BC /* ProfileDelegate.swift in Sources */,
+				CC56CAC2207B10D3000B1E8C /* TorneoTableViewCell.swift in Sources */,
+				CC35E9FB207D384500EE377F /* TorneoDetailViewController.swift in Sources */,
+				CC15AC0F20A2879F0041A69E /* LogViewController.swift in Sources */,
+				CC56CACD207D25E2000B1E8C /* DetailsTableViewCell.swift in Sources */,
+				CC517C9C206AC53200AB1B9A /* Profile.swift in Sources */,
+				CC96B068204519FF00A71A5A /* TorneoViewController.swift in Sources */,
+				CC8C4BC920AE4C2E00775792 /* Torneo.swift in Sources */,
+				CC517CA1206ACE4900AB1B9A /* SelectViewController.swift in Sources */,
+				CC56CAC8207D2348000B1E8C /* DetailsView.swift in Sources */,
+				CC35E9FE207D70D900EE377F /* Usuario.swift in Sources */,
+				CC7CA01B207A9FA000325E43 /* TorneoTable.swift in Sources */,
+				CC7CA01D207A9FAD00325E43 /* TorneoTableDelegate.swift in Sources */,
+				CC96B0522044B24D00A71A5A /* AppDelegate.swift in Sources */,
+				CC96B0542044B24D00A71A5A /* FirstViewController.swift in Sources */,
+				CC96B0662045113300A71A5A /* HistorialTorneosViewController.swift in Sources */,
+				CC517CA4206B065F00AB1B9A /* FullDrawViewController.swift in Sources */,
+				CCF7FAF120ACAA7B00954B6F /* SignViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC96B0572044B24D00A71A5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC96B0582044B24D00A71A5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC96B05C2044B24D00A71A5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC96B05D2044B24D00A71A5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC96B0602044B24D00A71A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC96B0612044B24D00A71A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC96B0632044B24D00A71A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E9AF16CEEA765904D401FA7 /* Pods-MakeADraw.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8B83SN98VT;
+				INFOPLIST_FILE = MakeADraw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.com.grj.MakeADraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC96B0642044B24D00A71A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46AB297386FA708D0ADC3F6F /* Pods-MakeADraw.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8B83SN98VT;
+				INFOPLIST_FILE = MakeADraw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.com.grj.MakeADraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC96B0492044B24D00A71A5A /* Build configuration list for PBXProject "MakeADraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC96B0602044B24D00A71A5A /* Debug */,
+				CC96B0612044B24D00A71A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC96B0622044B24D00A71A5A /* Build configuration list for PBXNativeTarget "MakeADraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC96B0632044B24D00A71A5A /* Debug */,
+				CC96B0642044B24D00A71A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC96B0462044B24D00A71A5A /* Project object */;
+}
